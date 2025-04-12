@@ -2,7 +2,7 @@
 
 ## A Comprehensive Guide
 
-This repo is a guide to essential Git commands I've used, and aliases I've created to improve efficiency.
+This repo is a guide to essential Git commands and aliases I've used and created to improve efficiency.
 
 ### Standard Git Commands
 

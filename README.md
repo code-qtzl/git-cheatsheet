@@ -33,7 +33,7 @@ This repo is a guide to essential Git commands and aliases I've used and created
 
 ### Git Aliases
 
-I use 'Z shell', this tool comes with a lot of great Git alias commands. Here are a few I've use.
+I use Z-shell (or zsh), this tool comes with a lot of great Git alias commands. Here are a few I've used.
 
 | Alias  | Full Command                                                                                                                                                        | Description                                       |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |

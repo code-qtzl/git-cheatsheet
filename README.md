@@ -6,28 +6,29 @@ This repo is a guide to essential Git commands and aliases I've used and created
 
 ### Standard Git Commands
 
-| Command (& Shorthand)                                       | Description                                            |
-| ----------------------------------------------------------- | ------------------------------------------------------ |
-| `git --version`                                             | Checks Git version                                     |
-| `git init`                                                  | Initialize a new Git repository                        |
-| `git clone <url>`                                           | Creates a copy of a remote repository                  |
-| `git status` <br> `git st`                                  | Shows the status of files in working directory         |
-| `git add <file>` <br> `git a <file>`                        | Stage changes for commit                               |
-| `git add .` <br> `git a .`                                  | Stage all changes for commit                           |
-| `git commit -m "message"` <br> `git cm "message"`           | Commit staged changes with a message                   |
-| `git push` <br> `git p`                                     | Push commits to remote repository                      |
-| `git pull` <br> `git pl`                                    | Pull changes from remote repository                    |
-| `git branch` <br> `git br`                                  | List all local branches                                |
-| `git branch -a` <br> `git br -a`                            | List all branches (local and remote)                   |
-| `git checkout <branch>` <br> `git co <branch>`              | Switch to specified branch                             |
-| `git checkout -b <branch>` <br> `git co -b <branch>`        | Create and switch to new branch                        |
-| `git merge <branch>`                                        | Merge specified branch into current branch             |
-| `git cherry-pick <commit-hash>` <br> `git cp <commit-hash>` | Apply changes from a specific commit to current branch |
-| `git log` <br> `git lg`                                     | Show commit history                                    |
-| `git diff`                                                  | Show changes between working directory and last commit |
-| `git reset --hard HEAD`                                     | Discard all local changes                              |
-| `git stash`                                                 | Temporarily store modified files                       |
-| `git stash pop`                                             | Restore most recently stashed files                    |
+| Command (& Shorthand)                                       | Description                                                                          |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| `git --version`                                             | Checks Git version                                                                   |
+| `git init`                                                  | Initialize a new Git repository                                                      |
+| `git clone <url>`                                           | Creates a copy of a remote repository                                                |
+| `git status` <br> `git st`                                  | Shows the status of files in working directory                                       |
+| `git add <file>` <br> `git a <file>`                        | Stage changes for commit                                                             |
+| `git add .` <br> `git a .`                                  | Stage all changes for commit                                                         |
+| `git commit -m "message"` <br> `git cm "message"`           | Commit staged changes with a message                                                 |
+| `git push` <br> `git p`                                     | Push commits to remote repository                                                    |
+| `git pull` <br> `git pl`                                    | Pull changes from remote repository                                                  |
+| `git branch` <br> `git br`                                  | List all local branches                                                              |
+| `git branch -a` <br> `git br -a`                            | List all branches (local and remote)                                                 |
+| `git checkout <branch>` <br> `git co <branch>`              | Switch to specified branch                                                           |
+| `git checkout -b <branch>` <br> `git co -b <branch>`        | Create and switch to new branch                                                      |
+| `git merge <branch>`                                        | Merge specified branch into current branch                                           |
+| `git cherry-pick <commit-hash>` <br> `git cp <commit-hash>` | Apply changes from a specific commit to current branch                               |
+| `git log` <br> `git lg`                                     | Show commit history                                                                  |
+| `git diff`                                                  | Show changes between working directory and last commit                               |
+| `git reset --hard HEAD`                                     | Discard all local changes                                                            |
+| `git stash`                                                 | Temporarily store modified files                                                     |
+| `git stash pop`                                             | Restore most recently stashed files                                                  |
+| `git rm --cached path/to/yourfile`                          | removes file from the index (staging area) while keeping it in the working directory |
 
 ---
 

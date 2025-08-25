@@ -29,6 +29,7 @@ This repo is a guide to essential Git commands and aliases I've used and created
 | `git stash`                                                 | Temporarily store modified files                                                     |
 | `git stash pop`                                             | Restore most recently stashed files                                                  |
 | `git rm --cached path/to/yourfile`                          | removes file from the index (staging area) while keeping it in the working directory |
+| `git checkout -b <new_branch>`                              | creates a new branch                                                                 |
 
 ---
 
